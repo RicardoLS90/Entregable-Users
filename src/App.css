@@ -30,6 +30,7 @@
   overflow-y: scroll;
   padding: 20px;
   background-image: url('./assets/among-us-space-background.jpg');
+  background-position: center;
   
   
 }
@@ -93,7 +94,7 @@
 /*-----------------------------Formulario-------------------------*/
 
 .userForm {
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -101,6 +102,19 @@
   gap: 20px;
   padding-left: 40px;
   padding-right: 30px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: aliceblue;
+  border-radius: 20%;
+  opacity: .6;
+  
+}
+
+.userForm:hover {
+  opacity: 1;
+  color: brown;
 }
 
 .name-container {
@@ -123,14 +137,14 @@
 
 input:focus {
   outline: none;
-  background-color: rgb(42, 40, 40);
+  background-color: rgb(86, 83, 83);
   color: white;
 }
 
 input {
   width: 80%;
   border-radius: 5px;
-  border-style:double;
+  border-style:groove;
 }
 
 .inputcontainer {
@@ -162,7 +176,6 @@ input {
 .submit:hover {
   
   background-color: rgb(42, 40, 40);
-  width: 90%;
   transition: 1s;
   cursor: pointer;
 }
@@ -171,4 +184,18 @@ input {
 .button-password  {
   border: none;
  
+}
+
+.button-password:hover {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(16, 16, 185);
+}
+
+.userform-container {
+  width: 40%;
+  display: flex;
+  background-image: url('./assets/among2.jpg');
+  
+  background-position:center;
 }
